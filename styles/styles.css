@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: white;
+  /* border: 1px solid red; */
+}
+
+:root {
+  --main-color: #111010;
+  --header-color: #e2fc07;
+  --color-blue: #095bda;
+  --color-red: #fa0404;
+  --color-white: #ffffff;
+}
+
+body {
+  background: var(--main-color);
+}
+
+/* HEADER */
+.header {
+  background: var(--header-color);
+  position: fixed;
+  width: 100%;
+  height: 4rem;
+}
+
+.pag__logo {
+  width: 4rem;
+  height: 4rem;
+}
+
+.main {
+  padding-top: 4.3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.hero {
+  width: 100%;
+  height: 60vh;
+  background-image: url(../imgs/una-taza-de-javascript.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.description__hero {
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 20vh;
+}
+
+.title__main {
+  color: var(--color-blue);
+  padding: 1rem;
+  font-size: 2rem;
+}
+
+.hero__descripcion {
+  max-width: 30rem;
+  text-align: center;
+  color: var(--color-white);
+  font-size: 1.3rem;
+}
+
+.gif__js {
+  margin-top: 5rem;
+  width: 100%;
+  height: 30%;
+}
